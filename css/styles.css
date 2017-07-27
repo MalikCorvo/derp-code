@@ -1,0 +1,153 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700i|Luckiest+Guy');
+
+/*UNIVERSALS*/
+a {
+ text-decoration: none;   
+}
+
+ul {
+    list-style-type: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+p, a {
+    font-family: 'Lato', sans-serif;
+}
+
+.fa {
+    padding: 10px;
+}
+
+/*Header Styles*/
+#sparta-img {
+    height:115px;
+    display: inline-block;
+}
+
+h2{
+    display: inline;
+}
+
+nav{
+    float: right;
+    position: relative;
+    top: 82px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.uno {
+    color: blue;
+    background-color: yellow;
+
+}
+
+.dos {
+    background-color: red;
+}
+
+.tres {
+     background-color: cyan;   
+}
+
+#hero {
+    height: 400px;
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+span {
+    color: purple;
+}
+
+#hero h1 {
+    font-size: 52px;
+    color: lime;
+    text-align: center;
+    position: relative;
+    margin-top: 0; /*this removes gap between sparta and controller*/
+}
+
+/*sidebar section begins*/
+
+aside {
+    float: left;
+    height: 180px;
+    background-color: #29ad43;
+    border: 2px solid black;
+    width: 25%;
+    position: relative;
+    top: 91px;
+    /* you can do text-align: center; to make the text in side bar centered*/
+}
+
+#blog-links {  
+ height: 100%;
+}
+
+#blog-links a {
+ color: purple;   
+ display: block;
+}
+
+#blog-links li {
+   border: 2px solid black;
+ height: 25% ;   
+ padding: 5px;
+ margin: 5px;
+ width: 55%;
+}
+
+#blog-links li:hover {
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    
+}
+
+/*Main section begins */
+
+main {
+    float: left;
+    width: 74.5%;
+    /*overflow auto makes text scroll while hidden just gets rid of it*/
+}
+
+.text-center {
+    
+    text-align: center;
+}
+
+#main-text {
+    
+ font-size: 1.5em;   
+    line-height 35px;
+    padding: 0px 16px; 
+}
+
+/*footer begins*/
+
+footer  {
+     background-color: #c2c2a3;   
+    clear: both;
+    padding 24px 0px
+}
+
+.fa-facebook-square {
+     color: #0000e6;   
+}
+
+.fa-tumblr-square {
+     color: #4d004d;   
+}
+
+.fa-amazon {
+    color: #e6b800;    
+}

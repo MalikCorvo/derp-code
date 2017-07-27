@@ -1,0 +1,41 @@
+/*contact begins*/
+
+#contact-form-wrapper {
+     background-color: grey;
+     height: 800px;
+}
+
+#contact-form-wrapper iframe {
+    width: 60%;
+    float: left;
+}
+
+#contact-form-wrapper h1 {
+    width: 40%;
+    float: right;
+     position: relative;
+     top: 250px;
+}
+
+/* map and address begins */
+#map-wrapper {
+    clear: both;
+    background-color: yellow;
+    height: 650px;
+}
+
+#map-wrapper address {
+    font-size: 32px;S
+     width: 60%;   
+     float: left;
+     position: relative;
+     left: 80px;
+     top:100px;
+     background-color: yellow;
+}
+
+#map-wrapper iframe {
+ float: right;
+ width: 600px;
+ height: 450px;
+}
